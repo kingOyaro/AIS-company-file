@@ -1,12 +1,14 @@
-// This is Database Source Name File for ODBC connection to a company file.
-// Do not delete this file yourself. ODBC connection may not
-// operate correctly IF you manually delete this file. 
+// This is QuickBooks configuration File. It exists while users are connected
+// to a company file. Do not delete this file yourself. QuickBooks may not
+// operate correctly IF you manually delete this file.
 [ODBC]
-DRIVER=SQL Anywhere
+DRIVER=QB SQL Anywhere
 Compress=NO
 DisableMultiRowFetch=NO
 Debug=NO
 Integrated=NO
 AutoStop=NO
-CommLinks=TCPIP{HOST=::1:10180
-ServerName=QB_DESKTOP-O11N1V0_21
+CommLinks=TCPIP{HOST=192.168.254.3:52150}
+ServerName=QB_DESKTOP-O11N1V0_31
+DatabaseName=d11f5170a71a4a138cf422f75d560a18
+
